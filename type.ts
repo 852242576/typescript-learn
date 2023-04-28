@@ -28,7 +28,7 @@ c = true;
 // console.log(sum(123, 456)); // 579
 // console.log(sum(123, "456")); // "123456"
 
-function sum(a: number, b: number): number {
+function sum(a: number, b: number): number { // a,b和返回值都是number类型
     return a + b;
 }
 
