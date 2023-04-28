@@ -69,6 +69,7 @@
       语法检查属性
     */
     // 所有严格检查的总开关
+    // 严格模式开启，后面的alwaysStrict、noImplicitAny、noImplicitThis、strictNullChecks都默认开启，可以不用配置后面的alwaysStrict、noImplicitAny、noImplicitThis、strictNullChecks
     "strict": true,
     // 用来设置编译后的文件是否使用严格模式，默认false
     // 在ES6中的模块化会自动使用严格模式，而无需在文件开头添加`'use strict'`
